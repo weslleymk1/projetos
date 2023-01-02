@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="initial-scale=1, width=device-width">
+<title>Dólar Hoje: Cotação Comercial e Turismo. Valor e Preço!</title>
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+
+
+<meta name="apple-mobile-web-app-title" content="DolarHoje.com">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="apple-touch-icon-precomposed" href="/img/apple-dolar.png">
+<link rel="icon" sizes="192x192" href="/img/touch-dolar.png">
+<meta name="theme-color" content="#fff"/>
+<meta name="msapplication-navbutton-color" content="#fff"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="#fff"/>
+
+
+
+
+
+
+<meta name="description" content="Dólar Hoje. Valor da cotação do dólar americano comercial e turismo hoje. Preço do dólar sempre atualizado!" />
+<meta name="keywords" content="dolar hoje,dólar hoje,cotação do dolar hoje,preço do dolar hoje,valor do dolar hoje,cotação" />
+<meta name="author" content="PedroMenezes.com" />
+
+
+<meta property='og:type' content='website'>
+
+<meta property="og:site_name" content="Dólar Hoje">
+<meta property='og:title' content='Dólar Hoje'>
+<meta property='og:url' content='https://dolarhoje.com'>
+<meta property='og:image' content='https://dolarhoje.com/img/fb-icon.gif'>
+<meta property='og:description' content='Dólar Hoje. Valor da cotação do dólar americano comercial e turismo hoje. Preço do dólar sempre atualizado!'>
+
+
+
+<meta property='twitter:site' content='@dolarhoje'>
+
+<link rel="canonical" href="https://dolarhoje.com/"/>
+
+<link rel="alternate" type="application/rss+xml" title="Dólar Hoje RSS Feed" href="//dolarhoje.com/feed.xml"/>
+
+<style>
+*{margin:0;padding:0}
+html{height:auto;}
+
+html,body {min-height: 100%;}
+
+body{background:#f7f7f7;font:62.5% Verdana;text-align:center}
+a{color:#3398CB}
+
+#conteudo ul, #conteudo ol { margin-left: 17px; }
+#conteudo ul li, #conteudo ol li { margin-left: 15px; margin-top: 10px; }
+
+ul.menu{list-style-type: none; margin-left: initial; text-align: left;}
+ul.menu > li{border-bottom: 1px solid #eee; margin-top: initial; padding: 13px 0 8px 0;}
+#conteudo ul.menu > li { margin-left: initial; }
+ul.menu.hiddenable { display: none; }
+ul#more-button { background: #54bbf1; border-radius: 7px; font-weight: bold; margin-bottom: 50px !important; padding: 15px 0px; text-align: center; }
+ul#more-button a { color: #fff; }
+
+ul#more-button #more-text, ul#more-button #less-text { display: none; }
+body:not(.show-content) ul#more-button #more-text { display:block; }
+body.show-content ul#more-button #less-text { display:block; }
+
+.more-content { display: none; }
+.show-content .more-content { display: block; }
+
+.highlight{color: #000; display: inline-block;padding: 1px 5px}
+.highlight.dolar{background: #F58A8A}
+.highlight.real{background: #A0D229}
+
+#topo, #conteudo { font-size: 1.2em; margin: 2% 10px 30px 10px; }
+
+
+
+#conteudo .google-auto-placed {text-align: left !important;}
+
+#topo p { margin-top: 30px; text-align: left; }
+#topo p:first-child {margin-top: 0;}
+#topo a {text-decoration: none;}
+
+
+#breadcrumb > ol {list-style-type: none; margin-left: 0}
+#dropdown-content > ul {list-style-type: none; margin-top: 8px;}
+#dropdown-content > ul > li.selected > a { color: #000; }
+#dropdown-content > ul > li.header > span { font-weight: bold; text-transform: uppercase; }
+#dropdown-content > ul > li.spacer { border-bottom: 0; padding-top: 0; }
+#breadcrumb > ol > li > a, #breadcrumb > ol > li > span.selected-page {display: none;}
+#breadcrumb ul.menu:last-child li:first-child {display: none;}
+
+#breadcrumb .arrow {fill: #353535; margin-left: 3px; position: relative; top: 3px;}
+
+
+
+
+@media only screen and (min-width: 992px) {
+  #breadcrumb {}
+  #breadcrumb > ol {margin-top: -4px}
+  #breadcrumb > ol > li {display: inline-block; position: relative}
+  #breadcrumb > ol > li:after {color: #989898; content: ">"; margin-left: 5px; display: inline-block; position: relative}
+  #breadcrumb > ol > li:last-child:after {display: none;}
+  #breadcrumb > ol > li > a, #breadcrumb > ol > li > span.selected-page {color: #3398CB; display: inline-block; text-decoration: underline;}
+  #breadcrumb > ol > li > span.selected-page {text-decoration: none;}
+  #breadcrumb > ol > li > a:hover {text-decoration: underline;}
+  #breadcrumb > ol > li:first-child > a {font-size: 15px;}
+
+  #breadcrumb ul.menu > li {border-bottom: 0; display: block; margin-right: initial; padding: initial;}
+  #breadcrumb ul.menu:last-child li:first-child, #breadcrumb ul.menu:nth-child(2n) li:first-child {display: block;}
+
+  #dropdown-content {display: none;}
+
+  #breadcrumb > ol > li > #dropdown-content {
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+    background-color: #f9f9f9;
+    
+    left: -133px;
+    
+    padding: 10px 3px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  #breadcrumb > ol > li:hover > #dropdown-content { display: block; }
+
+  #dropdown-content > ul {display:inline-block; margin-top: initial; vertical-align:top;}
+  #dropdown-content > ul > li {}
+  #dropdown-content > ul > li.header > span {}
+  #dropdown-content > ul > li.spacer { padding-top: 22px; }
+  #dropdown-content > ul > li:first-child {margin-top: 4px}
+  #dropdown-content > ul > li:last-child {margin-bottom: 4px}
+
+  #breadcrumb > ol > li > #dropdown-content > ul > li > a, #breadcrumb > ol > li > #dropdown-content > ul > li.header > span { color: #000; margin-right: 18px; padding-left: 15px; text-decoration: none; }
+  #breadcrumb > ol > li > #dropdown-content > ul > li > a { color: #3398CB; text-decoration: underline; }
+  #breadcrumb > ol > li > #dropdown-content > ul > li > a:hover { text-decoration: underline; }
+
+  #dropdown-content > ul > li.selected > a { color: #000 !important; text-decoration: none !important; } 
+
+  ul#more-button { display: none; }
+}
+
+
+.install{display:none;}
+.install a{text-decoration: none;}
+.is{display: block !important;}
+.has_extension{display:none !important;}
+
+.icon { background: url(/img/sprites.png) no-repeat; display: inline-block; }
+.icon.flag { background-position: -30px -5px; height: 17px; width: 20px; }
+.text { position: relative; top: -2px; }
+.icon.chrome { background-position: -63px -8px; height: 17px; width: 17px; }
+.icon.whatsapp { background-position: -33px -66px; height: 18px; padding-right: 3px; width: 16px; }
+.icon.telegram { background-position: -7px -63px; height: 21px; padding-right: 3px; width: 16px; }
+.icon.star { width: 27px; height: 26px; background-position: -102px -5px; background-size: 133px; margin-right: 4px; }
+.icon.star.full { background-position: -102px -39px; }
+
+#whatsapp-share-button, mobile #telegram-share-button, #newsletter-top{}
+#newsletter-top{padding-left: 23px;}
+
+@media(min-width: 641px) { /* tablet */
+  #whatsapp-share-button, #telegram-share-button{display:none;}
+}
+
+@media only screen and (min-width: 992px) {
+  #newsletter-top {display:none;}
+}
+
+#moeda { margin-top: 5%; }
+#moeda > ._adr_abp_iframe { display: none !important; }
+
+  h1 {background:transparent url(/img/icon-dolar.gif) no-repeat center center; background-size: 122px; height:122px; margin-right:auto; text-indent:-9999px;}
+  
+  #cotacao {color:#A0D229;font-size:2em;letter-spacing:.05em;word-spacing:-.3em;
+    margin: .7em .9em .5em .9em;
+    }
+  #cotacao .optional {display: none;}
+  #cotacao .clearfix {clear:both;height:0}
+  .cotMoeda { color: #d8d8d8; font-size:3em; margin: 0 .1em; padding: 0 0.07em 0.03em; float: left; clear: left; font-size:1.4em; }
+  .cotMoeda:first-child { margin-bottom: .3em; margin-top: .3em; }
+  .cotMoeda input {outline:0;}
+  .cotMoeda .symbol { display: inline-block; text-align: left; width: 2.1em; }
+  input#estrangeiro,input#nacional{border:0;color:#909090;font-family:verdana;font-size:1em;margin-left:0.1em;text-align:right;width:2.3em;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+  #obs{ color: #c1c1c1; font-size: 17px; margin: 7px 0 0 0.20em; text-align: left; word-spacing: 0; }
+
+
+
+@media(min-width: 641px) {
+  #obs { display: none; }
+}
+
+
+.twitter{display:inline;position:relative;top: 3px;}
+
+#conteudo {text-align:left;}
+#conteudo, #conteudo a {color:#5a5a5a;}
+#conteudo h2 {font-size: 1.3em;}
+#conteudo h2, #conteudo strong {color: #616161;}
+#conteudo h2:first-of-type {margin-top: 20px;}
+#conteudo h2:not(:first-of-type) {margin-top: 50px;}
+#conteudo p {line-height: 21px; margin: 16px 0;}
+#conteudo ul.menu {margin-top:30px;margin-left:0}
+
+table.conversao {border-collapse: collapse; margin-bottom: 10px; margin-top: 16px; width: 100%;}
+
+thead tr td {background: #4CAF50; color: #fff; vertical-align: bottom;}
+table.conversao.australiano thead tr td {background: #3E2782;}
+table.conversao.neo thead tr td, table.conversao.siacoin thead tr td {}
+table.conversao.canadense thead tr td {background: #E20026;}
+table.conversao.euro thead tr td, table.conversao.electroneum thead tr td, table.conversao.dash thead tr td, table.conversao.populous thead tr td, table.conversao.zilliqa thead tr td, table.conversao.digibyte thead tr td, table.conversao.wanchain thead tr td, table.conversao.bitshares thead tr td, table.conversao.status thead tr td, table.conversao.decred thead tr td, table.conversao.lisk thead tr td, table.conversao.omisego thead tr td, table.conversao.nano thead tr td, table.conversao.vechain thead tr td, table.conversao.ontology thead tr td, table.conversao.verge thead tr td, table.conversao.stellar-lumens thead tr td, table.conversao.qtum thead tr td, table.conversao.icon-coin thead tr td, table.conversao.stratis thead tr td, table.conversao.waves thead tr td, table.conversao.steem thead tr td, table.conversao.usd-coin thead tr td, table.conversao.trueusd thead tr td, table.conversao.solana thead tr td {background: #3398CB;}
+table.conversao.libra thead tr td {background: #e0596a;}
+table.conversao.polkadot thead tr td, table.conversao.aeternity thead tr td, table.conversao.polygon thead tr td {background: #d03c70;}
+table.conversao.ouro thead tr td, table.conversao.zcash thead tr td, table.conversao.dogecoin thead tr td, table.conversao.shiba_inu thead tr td {background: #caac66;}
+table.conversao.bitcoin thead tr td, table.conversao.nem thead tr td {background: #fef0db;color: #999;}
+table.conversao.iene thead tr td, table.conversao.mexicano thead tr td, table.conversao.franco-suico thead tr td, table.conversao.neozelandes thead tr td, table.conversao.basic-attention-token thead tr td, table.conversao.yuan thead tr td, table.conversao.rublo thead tr td,table.conversao.novo-sol thead tr td, table.conversao.reddcoin thead tr td, table.conversao.ark thead tr td, table.conversao.won thead tr td {background: #e63331;}
+table.conversao.litecoin thead tr td, table.conversao.ripple thead tr td, table.conversao.salt thead tr td, table.conversao.zrx thead tr td, table.conversao.bytom thead tr td, table.conversao.ethereum thead tr td, table.conversao.iota thead tr td, table.conversao.cardano thead tr td, table.conversao.tron thead tr td, table.conversao.eos thead tr td, table.conversao.bytecoin thead tr td, table.conversao.golem thead tr td, table.conversao.pundi-x thead tr td, table.conversao.tezos thead tr td {background: #A4A4A4;color: #fff;}
+table.conversao.monero thead tr td {background: #f7e8de; color: #969696;}
+table.conversao.argentino thead tr td {background: #5CA8DA;}
+table.conversao.chileno thead tr td {background: #E51212;}
+table.conversao.uruguaio thead tr td {background: #0237AB;}
+table.conversao tbody tr.destaque {background: #fffee1;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+td {border-bottom: 1px solid #ddd; font-size: 15px; height: auto; max-height: 30px; padding: 10px;}
+
+/* input */
+
+
+  /* celulares */
+  .cotMoeda input {min-width: 3.9em; max-width: 3.9em;}
+  
+
+  @media(min-width: 239px) {
+    .cotMoeda input {min-width: 4.6em; max-width: 4.6em;}
+    
+  }
+
+  @media(min-width: 299px) {
+    .cotMoeda{font-size: 1.8em}
+    .cotMoeda input { min-width: 4.7em; max-width: 4.7em; }
+    
+  }
+
+  @media(min-width: 319px) {
+    .cotMoeda input { min-width: 5.3em; max-width: 5.3em; }
+    
+  }
+
+  @media(min-width: 359px) {
+    .cotMoeda{font-size: 2em}
+    .cotMoeda input { min-width: 5.5em; max-width: 5.5em; }
+    
+  }
+
+
+
+  /* ativado e mobile */
+  body.activated .cotMoeda, .cotMoeda { color: #c8c8c8; }
+  body.activated .cotMoeda, body.activated .cotMoeda input, .cotMoeda, .cotMoeda input { background: #E7F4C9; }
+
+
+
+
+
+/* desktop */
+  @media(min-width: 641px) {
+    .cotMoeda { color: #d8d8d8; }
+    
+    .cotMoeda, input#estrangeiro, input#nacional { background: transparent; }
+  }
+
+
+/* adsense */
+body.hide-google-ads .adsbygoogle.principal, body.hide-google-ads .adsbygoogle.conteudo, body.hide-google-ads .adsbygoogle.rodape {
+  display: none !important;
+}
+
+.adsbygoogle {
+  height: 60px;
+  margin: 0 0 0 25px;
+  width: 168px;
+}
+
+.adsbygoogle.digitais {
+  margin: 20px 0 0 0 !important;
+}
+
+@media(min-width: 239px) {
+  .adsbygoogle {
+    height: 60px;
+    width: 189px;
+  }
+}
+
+@media(min-width: 320px) {
+  .adsbygoogle {
+    height: 250px;
+    margin: 0 0 0 12px;
+    width: 300px;
+  }
+}
+
+@media(min-width: 360px) {
+  .adsbygoogle {
+    margin: 0 0 0 25px;
+  }
+}
+
+@media(min-width: 641px) {
+  .adsbygoogle {
+    margin: 1.5% auto 0 auto !important;
+    height: 60px;
+    width: 468px;
+  }
+
+  #main-banner {
+    margin-top: 1.5%;
+  }
+
+  #main-banner .adsbygoogle {
+    margin-top: 0;
+  }
+}
+
+@media(min-width: 728px) {
+  .adsbygoogle {
+    height: 90px;
+    width: 728px;
+  }
+}
+
+@media(min-width: 1040px) {
+  .adsbygoogle.rodape {
+    height: 250px;
+    width: 970px;
+  }
+}
+
+.adsbygoogle.conteudo {
+  margin: 0 !important;
+}
+
+.adsbygoogle.rodape, #dolarhoje_mobile_bottom, #dolarhoje_desktop_bottom {
+  margin: 5% 0 0 0 !important;
+}
+
+body.desktop .adsbygoogle.digitais {
+  display: none !important;
+}
+
+/* ajustes para ios e celulares */
+@media(min-width: 360px) {
+  #topo, #conteudo {
+    font-size: 1.4em;
+    margin: 2% 25px 30px 25px;
+  }
+
+  
+
+  ul.menu > li { padding-bottom: 9px; }
+
+  #dolarhoje_desktop_banner:empty, #dolarhoje_desktop_bottom:empty, #dolarhoje_desktop_top:empty, #dolarhoje_mobile_banner:empty, #dolarhoje_mobile_bottom:empty, #dolarhoje_mobile_top:empty, #main-banner:empty {
+    display: none;
+  }
+}
+
+/* ajustes para ipad e desktop */
+@media(min-width: 641px) {
+  #moeda { margin-top: 10%; }
+
+  #cotacao { font-size: 1.2em; margin-top: 4%; }
+  #cotacao .optional{display: inline; }
+  
+  
+    .cotMoeda {float: none; clear: none; font-size:3em;}
+    .cotMoeda input, .cotMoeda input#estrangeiro {min-width: 0; max-width: none}
+    .cotMoeda .symbol {width: auto;}
+    .cotMoeda:first-child { margin: 0 .1em; }
+  
+
+  #topo { margin-top: 28%; }
+}
+
+@media only screen and (min-width: 992px) {
+  ul.menu > li {border-bottom: 0; display: inline; margin-right: .7em; padding: 0;}
+  ul.menu > li:last-child {margin-right: 0;}
+
+  #topo {position: absolute; left: 10px; margin: 0; padding-top: 0; top: 10px; width: auto}
+  #topo a{text-decoration: underline;}
+  #topo .install a{text-decoration:none;}
+  #topo p {margin-top: 7px}
+  #topo ul { line-height: 22px; }
+
+  
+
+  #conteudo { left: 10px; max-width: 550px; position: absolute; right: 10px; top: 101%; }
+  #conteudo ul.menu {}
+  #conteudo ul.menu > li { padding-bottom: 10px }
+}
+
+@media(min-width: 780px) {
+  #cotacao { font-size: 1.4em }
+}
+
+@media(min-width: 880px) {
+  #cotacao { font-size: 1.6em }
+}
+
+@media(min-width: 1020px) {
+  #cotacao { font-size: 2em; }
+}
+
+
+#topo ul.menu > li#breadcrumb { border-bottom: 0; }
+
+
+
+
+#chart { margin-top: 20px; }
+
+
+#privacy-warning {
+  background: #fff;
+  border-radius: 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 0px;
+  color: #000;
+  display: none;
+  font-size: 13px;
+  left: 20px;
+  letter-spacing: -0.1px;
+  padding: 5px 6px 6px 8px;
+  right: 20px;
+  text-align: left;
+  word-spacing: -1.5px;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#privacy-warning, #privacy-close { vertical-align: middle; }
+#privacy-warning div {}
+#privacy-close {
+  margin: 5px 0 0 0;
+  padding: 6px 10px;
+  width: 100%;
+}
+@media(min-width: 361px) {
+  #privacy-warning {
+    bottom: 10px;
+    margin: 0;
+    flex-direction: row;
+    position: fixed;
+    z-index: 9999;
+  }
+  #privacy-close {
+    margin: 0 0 0 3px;
+    width: auto;
+  }
+}
+
+</style>
+
+<meta name="google-site-verification" content="XLVwzFlH8x7PjDYYjAczarqlUxSDQ6Ag2awTbvVrLxY" />
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1639559-7"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1639559-7', { 'anonymize_ip': true });
+</script>
+
+
+
+  
+    
+  
+
+
+
+  
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  
+
+</head>
+
+<body>
+
+
+  <div id="privacy-warning">
+    <div>Usamos cookies e tecnologias semelhantes de acordo com a nossa <a href="/politicas/">Política de Privacidade</a>. Ao continuar navegando, você concorda com essas condições.</div>
+    <button id="privacy-close">OK</button>
+  </div>
+
+
+
+  <div id="moeda"><h1>Dolar Hoje</h1></div>
+
+
+
+  
+  <div id="cotacao"><span class="cotMoeda estrangeira"><span class="symbol">US$</span><input type="text" id="estrangeiro" value="1,00"/></span><span class="optional"> vale </span><span class="cotMoeda nacional"><span class="symbol">R$</span><input type="text" id="nacional" value="5,35"/></span><span class="optional"> hoje</span><br class="clearfix"/></div>
+  
+
+
+
+  
+    
+      
+        <div id="main-banner">
+          <!-- novo bloco responsivo do dolarhoje americano -->
+          <ins class="adsbygoogle principal" style="display:block" data-ad-client="ca-pub-2647271778569712" data-ad-slot="7994159585"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+    
+  
+ 
+
+
+  <div id="topo">
+    <ul class="menu">
+      <li id="whatsapp-share-button"><a href="whatsapp://send?text=O%20dólar%20tá%20R$%205,35!%20DolarHoje.com" rel="nofollow"><span class="icon whatsapp"></span> Compartilhar no WhatsApp</a></li>
+
+      <li id="telegram-share-button"><a href="/telegram/" rel="nofollow" target="_blank"><span class="icon telegram"></span> Receber as cotações no Telegram</a></li>
+
+      <li id="newsletter-top"><a href="https://buttondown.email/dolarhoje" rel="nofollow noopener" target="_blank">Receber via Email</a></li>
+
+      <li id="breadcrumb">
+        <ol>
+          <li><a href="/">DolarHoje.com</a></li>
+          <li><span class="selected-page">Dólar Hoje</span>
+            <div id="dropdown-content">
+              <ul class="menu">
+                <li class="header"><span>Destaques</span></li>
+                <li><a href="/bitcoin-hoje/" title="cotação do bitcoin hoje">Bitcoin Hoje</a></li>
+                <li class="selected"><a href="/" title="cotação do dólar hoje">Dólar Hoje</a></li>
+                <li><a href="/euro-hoje/" title="cotação do euro hoje">Euro Hoje</a></li>
+                <li><a href="/ouro-hoje/" title="cotação do ouro hoje">Ouro Hoje</a></li>
+
+                <li class="spacer"><span></span></li>
+
+                <li class="header"><span>Turismo</span></li>
+                <li class=""><a href="/dolar-turismo/" title="cotação do dólar turismo hoje">Dólar Turismo</a></li>
+                <li class=""><a href="/euro-turismo/" title="cotação do euro turismo hoje">Euro Turismo</a></li>
+                
+                <li class="spacer more-content"><span></span></li>
+
+                <li class="header more-content"><span>Convencionais</span></li>
+                <li class=" more-content"><a href="/dolar-australiano-hoje/" title="cotação do dólar australiano hoje">Dólar Australiano</a></li>
+                <li class=" more-content"><a href="/dolar-canadense-hoje/" title="cotação do dólar canadense hoje">Dólar Canadense</a></li>
+                <li class=" more-content"><a href="/dolar-neozelandes-hoje/" title="cotação do dólar neozelandês hoje">Dólar Neozelandês</a></li>
+                <li class=" more-content"><a href="/franco-suico-hoje/" title="cotação do frnaco suíço hoje">Franco Suíço</a></li>
+                <li class=" more-content"><a href="/iene/" title="cotação do iene hoje">Iene</a></li>
+                <li class=" more-content"><a href="/libra-hoje/" title="cotação da libra hoje">Libra</a></li>
+                <li class=" more-content"><a href="/novo-sol-hoje/" title="cotação do novo sol hoje">Novo Sol</a></li>
+                <li class=" more-content"><a href="/peso-argentino/" title="cotação do peso argentino hoje">Peso Argentino</a></li>
+                <li class=" more-content"><a href="/peso-chileno/" title="cotação do peso chileno hoje">Peso Chileno</a></li>
+                <li class=" more-content"><a href="/peso-mexicano-hoje/" title="cotação do peso mexicano hoje">Peso Mexicano</a></li>
+                <li class=" more-content"><a href="/peso-uruguaio/" title="cotação do peso uruguaio hoje">Peso Uruguaio</a></li>
+                <li class=" more-content"><a href="/rublo-russo-hoje/" title="cotação do rublo russo hoje">Rublo</a></li>
+                <li class=" more-content"><a href="/won-sul-coreano-hoje/" title="cotação do won sul-coreano hoje">Won Sul-Coreano</a></li>
+                <li class=" more-content"><a href="/yuan-hoje/" title="cotação do yuan hoje">Yuan</a></li>
+              </ul>
+
+              <ul class="menu more-content">
+                <li class="header"><span>Digitais</span></li>
+                <li><a href="/aeternity-hoje/" title="cotação do aeternity hoje">Aeternity</a></li>
+                <li><a href="/ark-hoje/" title="cotação da ark hoje">ARK</a></li>
+                <li><a href="/basic-attention-token-hoje/" title="cotação do basic attention token hoje">Basic Attention Token</a></li>
+                <li><a href="/binance-coin-hoje/" title="cotação da binance coin hoje">Binance Coin</a></li>
+                <li><a href="/bitcoin-cash-hoje/" title="cotação do bitcoin cash hoje">Bitcoin Cash</a></li>
+                <li><a href="/bitcoin-diamond-hoje/" title="cotação do bitcoin diamond hoje">Bitcoin Diamond</a></li>
+                <li><a href="/bitcoin-gold-hoje/" title="cotação do bitcoin gold hoje">Bitcoin Gold</a></li>
+                <li><a href="/bitcoin-sv-hoje/" title="cotação do bitcoin sv hoje">Bitcoin SV</a></li>
+                <li><a href="/bitshares-hoje/" title="cotação da bitshares hoje">BitShares</a></li>
+                <li><a href="/bytom-hoje/" title="cotação da bytom hoje">Bytom</a></li>
+                <li><a href="/cardano-hoje/" title="cotação do cardano hoje">Cardano</a></li>
+                <li><a href="/dash/" title="cotação do dash hoje">Dash</a></li>
+                <li><a href="/decred/" title="cotação do decred hoje">Decred</a></li>
+                <li><a href="/dentacoin-hoje/" title="cotação da dentacoin hoje">Dentacoin</a></li>
+                <li><a href="/digibyte-hoje/" title="cotação da digibyte hoje">DigiByte</a></li>
+                <li><a href="/dogecoin-hoje/" title="cotação do dogecoin hoje">Dogecoin</a></li>
+                <li><a href="/electroneum-hoje/" title="cotação da electroneum hoje">Electroneum</a></li>
+                <li><a href="/eos-hoje/" title="cotação do eos hoje">EOS</a></li>
+                <li><a href="/ethereum/" title="cotação do ethereum hoje">Ethereum</a></li>
+                <li><a href="/ethereum-classic-hoje/" title="cotação do ethereum classic hoje">Ethereum Classic</a></li>
+                <li><a href="/golem-hoje/" title="cotação do golem hoje">Golem</a></li>
+                <li><a href="/icon-hoje/" title="cotação do icon hoje">ICON</a></li>
+                <li><a href="/iota/" title="cotação do iota hoje">IOTA</a></li>
+                <li><a href="/komodo-hoje/" title="cotação da komodo hoje">Komodo</a></li>
+              </ul>
+
+              <ul class="menu more-content">
+                <li class="header"><span></span></li> 
+                <li><a href="/lisk/" title="cotação do lisk hoje">Lisk</a></li>
+                <li><a href="/litecoin/" title="cotação do litecoin hoje">Litecoin</a></li>
+                <li><a href="/monero/" title="cotação do monero hoje">Monero</a></li>
+                <li><a href="/nano-hoje/" title="cotação da nano hoje">Nano</a></li>
+                <li><a href="/nem/" title="cotação do nem hoje">NEM</a></li>
+                <li><a href="/neo/" title="cotação do neo hoje">NEO</a></li>
+                <li><a href="/omisego/" title="cotação da omg network hoje">OMG Network</a></li>
+                <li><a href="/ontology-hoje/" title="cotação da ontology hoje">Ontology</a></li>
+                <li><a href="/polkadot-hoje/" title="cotação da polkadot hoje">Polkadot</a></li>
+                <li><a href="/polygon-hoje/" title="cotação da polygon hoje">Polygon</a></li>
+                <li><a href="/populous-hoje/" title="cotação da populous hoje">Populous</a></li>
+                <li><a href="/pundi-x-hoje/" title="cotação da pundi x hoje">Pundi X</a></li>
+                <li><a href="/qtum-hoje/" title="cotação do qtum hoje">Qtum</a></li>
+                <li><a href="/reddcoin-hoje/" title="cotação do reddcoin hoje">ReddCoin</a></li>
+                <li><a href="/ripple-hoje/" title="cotação do ripple xrp hoje">Ripple XRP</a></li>
+                <li><a href="/salt-hoje/" title="cotação da salt hoje">SALT</a></li>
+                <li><a href="/siacoin-hoje/" title="cotação da siacoin hoje">Siacoin</a></li>
+                <li><a href="/solana-hoje/" title="cotação da solana hoje">Solana</a></li>
+                <li><a href="/shiba-inu-hoje/" title="cotação da shiba inu hoje">Shiba Inu</a></li>
+                <li><a href="/status-hoje/" title="cotação da status hoje">Status</a></li>
+                <li><a href="/steem-hoje/" title="cotação da steem hoje">Steem</a></li>
+                <li><a href="/stellar-lumens-hoje/" title="cotação do stellar lumens hoje">Stellar Lumens</a></li>
+                <li><a href="/stratis-hoje/" title="cotação da stratis hoje">Stratis</a></li>
+                <li><a href="/terra-hoje/" title="cotação da terra classic hoje">Terra Classic</a></li>
+              </ul>
+
+              <ul class="menu more-content">
+                <li class="header"><span></span></li>
+                <li><a href="/tether-hoje/" title="cotação da tether hoje">Tether</a></li>
+                <li><a href="/tezos-hoje/" title="cotação da tezos hoje">Tezos</a></li>
+                <li><a href="/tron-hoje/" title="cotação do tron hoje">TRON</a></li>
+                <li><a href="/trueusd-hoje/" title="cotação da trueusd hoje">TrueUSD</a></li>
+                <li><a href="/usd-coin-hoje/" title="cotação da usd coin hoje">USD Coin</a></li>
+                <li><a href="/vechain-hoje/" title="cotação da vechain hoje">VeChain</a></li>
+                <li><a href="/verge-hoje/" title="cotação do verge hoje">Verge</a></li>
+                <li><a href="/wanchain-hoje/" title="cotação da wanchain hoje">Wanchain</a></li>
+                <li><a href="/waves-hoje/" title="cotação da waves hoje">Waves</a></li>
+                <li><a href="/zcash/" title="cotação do zcash hoje">Zcash</a></li>
+                <li><a href="/zilliqa-hoje/" title="cotação do zilliqa hoje">Zilliqa</a></li>
+                <li><a href="/0x-hoje/" title="cotação da 0x hoje">0x</a></li>
+              </ul>
+
+              <ul id="more-button">
+                <li><a href="#"><span id="more-text">+ Mostrar mais moedas</span><span id="less-text">Esconder moedas</span></a></li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </li>
+    </ul>
+
+    
+    <p id="aviso_chrome" class="install">
+        <a href="https://chrome.google.com/webstore/detail/eemaaomlfllldamnpoajaedaemnblgal" rel="nofollow noopener" target="_blank">
+            <span class="icon chrome"></span>
+            <!-- icon by Anna Shlyapnikova (http://shlyapnikova.deviantart.com/) -->
+            Adicione ao Chrome
+        </a>
+    </p>
+    
+  </div>
+
+
+<div id="conteudo">
+
+  
+    
+      <!-- bloco responsivo conteúdo dolarhoje -->
+      <ins class="adsbygoogle conteudo" style="display:block;" data-ad-client="ca-pub-2647271778569712" data-ad-slot="4356871987"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    
+  
+
+  
+
+  
+  <h2>Gráfico do histórico do dólar nos últimos 30 dias</h2><div id="chart"><canvas id="chart-canvas"></canvas></div><h2>Quanto está o dólar turismo hoje nas principais cidades do Brasil?</h2><table class="conversao">  <thead>    <tr>      <td>Cidade</td>      <td>Real</td>    </tr>  </thead>  <tbody>    <tr>      <td><a href="/comprar/dolar-turismo/mg/belo-horizonte">Belo Horizonte</a></td>      <td>R$ 5,56</td>    </tr>    <tr>      <td><a href="/comprar/dolar-turismo/rj/rio-de-janeiro">Rio de Janeiro</a></td>      <td>R$ 5,50</td>    </tr>    <tr>      <td><a href="/comprar/dolar-turismo/sp/sao-paulo">São Paulo</a></td>      <td>R$ 5,60</td>    </tr>  </tbody></table><p>Saiba quanto está o <a href="/dolar-turismo/">dólar turismo hoje</a> nas outras cidades do país.</p><h2>Valor do Dólar Hoje</h2><p>A <strong>cotação</strong> do <strong>dolar hoje</strong> está R$ 5,35. Cotação do dólar comercial americano atualizada sempre para que você fique informado sobre o dólar e tome as melhores decisões.</p><p>O <strong>valor do dólar</strong> hoje é de caráter informativo.</p><h2>Sobre o dólar</h2><p>O dólar dos Estados Unidos (US Dollar, USD, US$) é a moeda emitida pelos Estados Unidos através da <em>Reserva Federal dos Estados Unidos</em>.</p><p>Ele também é a moeda oficial do Timor-Leste, Equador, El Salvador, Panamá e Porto Rico. Também é usado não-oficialmente nas Ilhas Virgens Britânicas, Ilhas Marshall, Estados Federados da Micronésia, Palau, Turks e Cacos e Zimbabwe</p><p>Ele possui moedas de 1, 5, 10, 25, 50 <em>cents</em> e 1 dólar. As notas que circulam hoje são de 1, 5, 10, 20, 50 e 100 dólares.</p><h2>Qual a diferença entre dólar comercial e dólar turismo?</h2><p><b>Dólar comercial</b> é utilizado para transações comerciais entre dois bancos, instituições financeiras e grandes empresas. Existem cotações diferentes de compra e venda. Essa diferença representa o lucro bruto do banco responsável pela intermediação das negociações.</p><p><b>Dólar turismo</b> é utilizado nas negociações de moeda estrangeira entre bancos e pessoas físicas. Normalmente com o objetivo de viajar e comprar no exterior.</p><h2>Como a cotação do dólar hoje é influenciada?</h2><p>A cotação do dólar hoje é um reflexo da economia dos principais países do mundo e também é influenciada pela situação de cada país. A economia de grandes países como a China influenciam na cotação do dólar, reservas internacionais de dólar americano mantidas pelo Banco Central, as operações do Banco Central para lidar com a alta ou baixa da moeda americana, notícias sobre a economia e política americanas e contratos de importação e exportação.</p><h2>Como o dólar pode influenciar suas viagens e compras de produtos importados?</h2><p>O <strong>preço do dólar</strong> é procurado principalmente por pessoas que estão planejando uma viagem de turismo ou negócios, que querem comprar produtos importados (como roupas, smartphones Android, iPhones, iPads), trabalham com exportação para o exterior e investidores.</p><p>Pequenas alterações no dólar podem tornar preços de produtos mais caros ou baratos tanto em lojas físicas como online. Essas alterações também podem influenciar no orçamento de viagens principalmente aos Estados Unidos.</p><p>Se estiver interessado em comprar produtos ou viajar, adquira o hábito de acessar sempre o <em>DolarHoje.com</em> para estar sempre bem informado sobre o preço do dólar do dia.</p><p>Entenda melhor <a href="/como-dolar-hoje-afeta-economia-brasileira/">como o dólar hoje afeta a economia brasileira</a>.</p><h2>O que é o Dólar PTAX?</h2><p>A <a href="/ptax">cotação do dólar PTAX</a> é a taxa de câmbio calculada com a média das taxas praticadas pelo mercado durante o dia e divulgada pelo BC.</p><h2>Tabela de Valores em Dólar Convertidos em Real</h2><table class="conversao">  <thead>    <tr>      <td>Dólar</td>      <td>Real</td>    </tr>  </thead>  <tbody>    <tr>      <td>US$ 1 (um dólar)</td>      <td>R$ 5,35</td>    </tr>    <tr>      <td>US$ 2 (dois dólares)</td>      <td>R$ 10,70</td>    </tr>    <tr>      <td>US$ 5 (cinco dólares)</td>      <td>R$ 26,75</td>    </tr>    <tr>      <td>US$ 10 (dez dólares)</td>      <td>R$ 53,50</td>    </tr>    <tr>      <td>US$ 25 (vinte e cinco dólares)</td>      <td>R$ 133,75</td>    </tr>    <tr>      <td>US$ 50 (cinquenta dólares)</td>      <td>R$ 267,50</td>    </tr>    <tr>      <td>US$ 100 (cem dólares)</td>      <td>R$ 535,00</td>    </tr>    <tr>      <td>US$ 1000 (mil dólares)</td>      <td>R$ 5350,00</td>    </tr>  </tbody></table><h2>Cotação do dólar comercial nos últimos dias</h2>  <table class="conversao chart-data">    <thead>      <tr>        <td>Data</td>        <td>Cotação</td>      </tr>    </thead>    <tbody>              <tr>          <td>30/12/2022</td>          <td>R$ 5,21</td>        </tr>              <tr>          <td>29/12/2022</td>          <td>R$ 5,21</td>        </tr>              <tr>          <td>28/12/2022</td>          <td>R$ 5,27</td>        </tr>              <tr>          <td>27/12/2022</td>          <td>R$ 5,28</td>        </tr>              <tr>          <td>26/12/2022</td>          <td>R$ 5,18</td>        </tr>              <tr>          <td>23/12/2022</td>          <td>R$ 5,14</td>        </tr>              <tr style="display:none">          <td>22/12/2022</td>          <td>R$ 5,18</td>        </tr>              <tr style="display:none">          <td>21/12/2022</td>          <td>R$ 5,20</td>        </tr>              <tr style="display:none">          <td>20/12/2022</td>          <td>R$ 5,24</td>        </tr>              <tr style="display:none">          <td>19/12/2022</td>          <td>R$ 5,31</td>        </tr>              <tr style="display:none">          <td>16/12/2022</td>          <td>R$ 5,28</td>        </tr>              <tr style="display:none">          <td>15/12/2022</td>          <td>R$ 5,31</td>        </tr>              <tr style="display:none">          <td>14/12/2022</td>          <td>R$ 5,34</td>        </tr>              <tr style="display:none">          <td>13/12/2022</td>          <td>R$ 5,26</td>        </tr>              <tr style="display:none">          <td>12/12/2022</td>          <td>R$ 5,30</td>        </tr>              <tr style="display:none">          <td>09/12/2022</td>          <td>R$ 5,23</td>        </tr>              <tr style="display:none">          <td>08/12/2022</td>          <td>R$ 5,20</td>        </tr>              <tr style="display:none">          <td>07/12/2022</td>          <td>R$ 5,22</td>        </tr>              <tr style="display:none">          <td>06/12/2022</td>          <td>R$ 5,23</td>        </tr>              <tr style="display:none">          <td>05/12/2022</td>          <td>R$ 5,24</td>        </tr>          </tbody>  </table><h2>Leia mais</h2><p>De <a href="/saques/">como sacar dinheiro no exterior</a> através de caixas eletrônicos, <a href="/dolar-falso/">como identificar notas falsas de dólar hoje</a> e <a href="/comprar-barato/">como comprar dólar barato</a>.</p>
+  
+
+  
+
+  
+    
+
+    <ul class="menu">
+      <li><a href="https://www.facebook.com/DolarHoje" target="_blank" rel="nofollow noopener">Curta no Facebook</a></li>
+      <li><a href="https://twitter.com/DolarHoje" target="_blank" rel="nofollow noopener">Siga no Twitter</a></li>
+    </ul>
+
+    <ul class="menu">
+      <li><a href="https://buttondown.email/dolarhoje" target="_blank" rel="nofollow noopener">Receber cotações via email</a></li>
+      <li><a href="/telegram/" rel="nofollow noopener" target="_blank">Receber no Telegram</a></li>
+    </ul>
+
+    <ul class="menu">
+      <li><a href="/descontos/">Descontos em viagens</a></li>
+      <li><a href="/em-seu-site/">Coloque as cotações em seu site</a></li>
+    </ul>
+
+    <ul class="menu">
+      <li>
+        <a href="mailto:eu@pedromenezes.com?subject=DolarHoje">contato</a>
+      </li>
+
+      <li>
+        <a href="/politicas/" rel="nofollow">políticas de privacidade e responsabilidade</a>
+      </li>
+
+      
+    </ul>
+
+    <ul class="menu">
+      <li>
+        por <a href="http://pedromenezes.com" target="_blank" rel="nofollow">Pedro Menezes</a>
+      </li>
+    </ul>
+  
+
+  
+    <!-- novo bloco responsivo do rodape hoje -->
+    <ins class="adsbygoogle rodape"
+        style="display:block;"
+        data-ad-client="ca-pub-2647271778569712"
+        data-ad-slot="3356980380"
+        ></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  
+</div>
+
+<script>
+/* <![C@data[ */
+elEst = a2('estrangeiro');elNac = a2('nacional');spans = [elEst.parentElement, elNac.parentElement];isActivated = false;isMobile = (navigator.userAgent || navigator.vendor).toLowerCase().indexOf("mobile") > -1;function a0(fileLocation, async, onLoadFunction) {var script = document.createElement('script');script.src = fileLocation;script.async = async;document.getElementsByTagName('head')[0].appendChild(script);script.onload = onLoadFunction;}function a1() {var userAgent = navigator.userAgent || navigator.vendor;return (userAgent.toLowerCase().indexOf("mobile") == -1) && (userAgent.toLowerCase().indexOf("chrome") > -1);}function a2(id) {return document.getElementById(id);}function a3(number) {if (Math.abs(number) < 1.0) {var e = parseInt(number.toString().split('e-')[1]);if (e) {number *= Math.pow(10,e-1);number = '0.' + (new Array(e)).join('0') + number.toString().substring(2);}} else {var e = parseInt(number.toString().split('+')[1]);if (e > 20) {e -= 20;number /= Math.pow(10,e);number += (new Array(e+1)).join('0');}}return number;}function a4(str, token) {var parts = str.split(token);if (parts[1] === undefined) {return str;} else {return parts.slice(0,-1).join('') + token + parts.slice(-1);}}function a5(elDigitado, elDestino) {var formattedNumber = elDigitado.value;formattedNumber = formattedNumber.replace(/\.$/g, "");    formattedNumber = formattedNumber.replace(/\./g, ',');    formattedNumber = formattedNumber.replace(/[^0-9\.,]/g, "");    formattedNumber = formattedNumber.replace(/(\d+)\.(\d+),/g, "$1$2,");    formattedNumber = a4(formattedNumber, ',');elDigitado.value = formattedNumber;var txtDigitado = parseFloat(elDigitado.value.replace(',', '.'));if (isNaN(txtDigitado)) {elDestino.value = "0,00";return;}var result;if (elDigitado == elNac) {result = (txtDigitado /5.35);}else {result = (txtDigitado *5.35);}result = result.toFixed(2);result = a3(result) + "";result = result.replace(/\./, ',');elDestino.value = result;}function a6(){document.body.className = document.body.className.replace(/activated/g, "");}function a7(){if (!document.body.className.match(/activated/)) {document.body.className += " activated";}}function a8(el) {if (el.value.length > 10) {el.style.width = "6.7em";} else if (el.value.length < 3) {el.style.width = (el.value.length * 0.65) + "em";} else {el.style.width = (el.value.length * 0.65 - 0.3) + "em";}}function a8s() {a8(elEst);a8(elNac);}function aa() {elEst.style.width = elNac.style.width = 6.6+"em";}function ab() {a8s();}function ac(el) {if (!el.value.match(/\d/)) {el.value = "0,00";} else if (el.value.match(/^\d+(,\d*)?$/)) {el.value = parseFloat(el.value.replace(',', '.')).toFixed(2).replace('.', ',');}}elEst.onfocus = elNac.onfocus = function() {aa();a7();isActivated = true;var $this = this;window.setTimeout(function(){ $this.select(); }, 300);if (isMobile) {document.getElementById('cotacao').scrollIntoView();    }};elEst.onblur = elNac.onblur = function() {ac(this);    window.setTimeout(function(){if (!isActivated) {ab();a6();}}, 300);isActivated = false;};spans[0].onmouseover = spans[1].onmouseover = function() {if (!isActivated) {a7();}};spans[0].onmousedown = spans[1].onmousedown = spans[0].onclick = spans[1].onclick = function(event) {if (event.target.tagName != "INPUT") {var input = event.currentTarget.getElementsByTagName('input')[0];window.setTimeout(function(){input.select();input.focus();}, 100);}};spans[0].onmouseout = spans[1].onmouseout = function() {if (!isActivated) {a6();}};if (!isActivated) {a8s();}elEst.onkeyup = function(event) {if (!event) { event = window.event; }if (event.keyCode != 9) { a5(this, elNac); }  };elNac.onkeyup = function(event) {if (!event) { event = window.event; }if (event.keyCode != 9) { a5(this, elEst); }};if (a1()) {document.getElementById("aviso_chrome").className += " is";}if (isMobile) {document.body.className = 'mobile';} else {document.body.className = 'desktop';}document.getElementById('breadcrumb').getElementsByTagName('span')[0].innerHTML += '<svg xmlns="http://www.w3.org/2000/svg" class="arrow" width="14" height="14" viewBox="0 0 24 24"><path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/></svg>';(function(){a2('more-button').onclick = function(){if (document.body.className.match(/show-content/)) {document.body.className = document.body.className.replace(/\sshow-content/, '');} else {document.body.className += ' show-content';}return false;};})();function ad(element, offset){var rect = element.getBoundingClientRect();return (rect.top - offset) <= (window.innerHeight || document.documentElement.clientHeight);}var ctx = document.getElementById('chart-canvas');var isChartLoaded = false;window.onscroll = function(e) {if (ad(ctx, 200) && !isChartLoaded) {isChartLoaded = true;if (ctx) {a0('/js/chart.min.js', true, function(){Chart.plugins.register({afterDatasetsDraw: function(chart) {if (chart.tooltip._active && chart.tooltip._active.length) {var activePoint = chart.tooltip._active[0],ctx = chart.ctx,y_axis = chart.scales['y-axis-0'],x = activePoint.tooltipPosition().x,topY = activePoint._model.y+6,bottomY = y_axis.bottom;ctx.save();ctx.setLineDash([2, 2]);ctx.beginPath();ctx.moveTo(x, topY);ctx.lineTo(x, bottomY);ctx.lineWidth = 2;ctx.strokeStyle = '#ddd';ctx.stroke();ctx.restore();}}});Chart.Tooltip.positioners.custom = function(elements, eventPosition) {var tooltip = this;return {x: elements[0]._chart.tooltip._active[0].tooltipPosition().x,y: elements[0]._chart.tooltip._active[0].tooltipPosition().y - 1};};var options = {};var data = document.querySelectorAll('table.chart-data tbody tr');var newData = [];for (var i = 0; i < data.length; i++) {var els = data[i].getElementsByTagName('td');newData.push({ cotacaoVenda: els[1].innerText, dataCotacao: els[0].innerText.replace(/\/0?(\d+)/, '/$1')});}newData.reverse();if (newData.length > 0) {var meses = ['jan.','fev.','mar.','abr.','mai.','jun.','jul.','ago.','set.','out.','nov.','dez.',];var labels = [];var points = [];for (var i = 0; i < newData.length; i++) {var dataCotacao = newData[i]['dataCotacao'].split('/').join(' de ');for (var x = 1; x < 13; x++){dataCotacao = dataCotacao.replace(' de ' + x + ' de ', ' de ' + meses[x-1] + ' de ')}labels.push(dataCotacao);points.push(parseFloat(newData[i]['cotacaoVenda'].replace('R$', '').replace(',', '.')));}var minValue = Math.min.apply(null, points);var maxValue = Math.max.apply(null, points);new Chart(ctx, {type: 'line',responsive: true,line: {borderDash: '1px'},data: {labels: labels,datasets: [{ borderColor: '#50ae55',data: points,fill: false,label: '',lineTension: 0,pointColor: '#50ae55',pointBackgroundColor: '#50ae55',pointRadius: 0}]},options: {animation: false,legend: {display: false},scales: {yAxes: [{gridLines: {drawBorder: false},ticks: {display: true,callback: function(value, index, values){return value.toFixed(2).replace('.', ',')},maxTicksLimit: 5,stepSize: 0.1}}],xAxes: [{gridLines: {display: false},ticks: {autoSkip: false,minRotation: 0,maxRotation: 0,callback: function(value, index, values) {if ((index == 15) || (index == (values.length - 15))) {return value;}}}}]},tooltips: {position: 'custom',intersect: false,mode: 'index',displayColors: false,callbacks: {title: function(){return;},label: function(tooltipItem) {return ' R$ ' + tooltipItem.yLabel.toFixed(2).replace('.', ',') + '   ' + tooltipItem.xLabel;}},xAlign: 'center',yAlign: 'bottom'}}});} else {a2('chart').innerText = "Gráfico indisponível no momento.";}});}}};var storageName = 'privacyCheck';var privacyWarningEl = a2('privacy-warning');if (!localStorage.getItem(storageName)) {privacyWarningEl.style.display = 'flex';}a2('privacy-close').onclick = function(){localStorage.setItem(storageName, true);privacyWarningEl.style.display = 'none';};
+/* ]]> */
+</script>
+</body>
+</html>
