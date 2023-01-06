@@ -34,7 +34,7 @@ header {
   padding-bottom: 100px;
 }
 
-/* a{color:#3398CB} */
+a{color:#3398CB}
 
 /* ativado e mobile, hover?*/
 body.activated .cotMoeda, .cotMoeda {
@@ -240,10 +240,20 @@ body.show-content ul#more-button #less-text { display:block; }
 
 .twitter{display:inline;position:relative;top: 3px;}
 
-#conteudo {text-align:left;}
-#conteudo, #conteudo a {color:#5a5a5a;}
-#conteudo h2 {font-size: 1.3em;}
-#conteudo h2, #conteudo strong {color: #616161;}
+#conteudo {
+  text-align:left;
+}
+#conteudo, #conteudo a {
+  /* color:#5a5a5a; */
+  color: white;
+}
+#conteudo h2 {
+  font-size: 1.3em;
+}
+#conteudo h2, #conteudo strong {
+  /* color: #616161; */
+  color: white;
+}
 #conteudo h2:first-of-type {margin-top: 20px;}
 #conteudo h2:not(:first-of-type) {margin-top: 50px;}
 #conteudo p {line-height: 21px; margin: 16px 0;}
@@ -251,7 +261,11 @@ body.show-content ul#more-button #less-text { display:block; }
 
 table.conversao {border-collapse: collapse; margin-bottom: 10px; margin-top: 16px; width: 100%;}
 
-thead tr td {background: #4CAF50; color: #fff; vertical-align: bottom;}
+thead tr td {
+  background: #4CAF50;
+  color: #fff; 
+  vertical-align: bottom;
+}
 table.conversao.australiano thead tr td {background: #3E2782;}
 table.conversao.neo thead tr td, table.conversao.siacoin thead tr td {}
 table.conversao.canadense thead tr td {background: #E20026;}
@@ -259,18 +273,34 @@ table.conversao.euro thead tr td, table.conversao.electroneum thead tr td, table
 table.conversao.libra thead tr td {background: #e0596a;}
 table.conversao.polkadot thead tr td, table.conversao.aeternity thead tr td, table.conversao.polygon thead tr td {background: #d03c70;}
 table.conversao.ouro thead tr td, table.conversao.zcash thead tr td, table.conversao.dogecoin thead tr td, table.conversao.shiba_inu thead tr td {background: #caac66;}
-table.conversao.bitcoin thead tr td, table.conversao.nem thead tr td {background: #fef0db;color: #999;}
+table.conversao.bitcoin thead tr td, table.conversao.nem thead tr td {
+  background: #fef0db;
+  color: #999;
+}
 table.conversao.iene thead tr td, table.conversao.mexicano thead tr td, table.conversao.franco-suico thead tr td, table.conversao.neozelandes thead tr td, table.conversao.basic-attention-token thead tr td, table.conversao.yuan thead tr td, table.conversao.rublo thead tr td,table.conversao.novo-sol thead tr td, table.conversao.reddcoin thead tr td, table.conversao.ark thead tr td, table.conversao.won thead tr td {background: #e63331;}
-table.conversao.litecoin thead tr td, table.conversao.ripple thead tr td, table.conversao.salt thead tr td, table.conversao.zrx thead tr td, table.conversao.bytom thead tr td, table.conversao.ethereum thead tr td, table.conversao.iota thead tr td, table.conversao.cardano thead tr td, table.conversao.tron thead tr td, table.conversao.eos thead tr td, table.conversao.bytecoin thead tr td, table.conversao.golem thead tr td, table.conversao.pundi-x thead tr td, table.conversao.tezos thead tr td {background: #A4A4A4;color: #fff;}
-table.conversao.monero thead tr td {background: #f7e8de; color: #969696;}
+table.conversao.litecoin thead tr td, table.conversao.ripple thead tr td, table.conversao.salt thead tr td, table.conversao.zrx thead tr td, table.conversao.bytom thead tr td, table.conversao.ethereum thead tr td, table.conversao.iota thead tr td, table.conversao.cardano thead tr td, table.conversao.tron thead tr td, table.conversao.eos thead tr td, table.conversao.bytecoin thead tr td, table.conversao.golem thead tr td, table.conversao.pundi-x thead tr td, table.conversao.tezos thead tr td {
+  background: #A4A4A4;
+  color: #fff;
+}
+table.conversao.monero thead tr td {
+  background: #f7e8de;
+  color: #969696;}
 table.conversao.argentino thead tr td {background: #5CA8DA;}
 table.conversao.chileno thead tr td {background: #E51212;}
 table.conversao.uruguaio thead tr td {background: #0237AB;}
-table.conversao tbody tr.destaque {background: #fffee1;}
+table.conversao tbody tr.destaque {
+  background: #fffee1;
+}
 
 tr:nth-child(even) {background-color: #f2f2f2;}
 
-td {border-bottom: 1px solid #ddd; font-size: 15px; height: auto; max-height: 30px; padding: 10px;}
+td {
+  border-bottom: 1px solid #ddd;
+  background: var(--verde5);
+  font-size: 15px; 
+  height: auto; 
+  max-height: 30px; 
+  padding: 10px;}
 
 /* input */
 
