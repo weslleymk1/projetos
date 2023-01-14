@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --amarelo1: #FFE191;
+    --amarelo2: #F0C44D;
+    --amarelo3: #A37700;
+
+    --azul1: #5088F0;
+    --azul2: #1546A3;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+img#logo-site{
+    width: 100px;
+}
+div#nome-logo {
+    width: 500px;
+}
+iframe#headeriframe {
+    width: vw;
+    height: 400px;
+}
+
+header {
+    width: 100vw;
+    height: 400px;
+}
