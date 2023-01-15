@@ -8,6 +8,8 @@
     --azul1: #5088F0;
     --azul2: #1546A3;
 
+    --vermelho1: #8B0000;
+
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
 
@@ -24,11 +26,10 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #8B0000; /* Cor vermelha */
+    background-color: var(--amarelo2);
     padding: 20px;
     text-align: center;
 }
-
 header h1 {
     color: #FFF; /* Cor branca */
     margin: 0;
@@ -37,13 +38,17 @@ header h1 {
     letter-spacing: 3px; /* Espaçamento entre letras */
 }
 
+img#logo-header{
+    width: 100px;
+    float: top-left;
+}
 /* Estilos para o menu de navegação */
 header nav {
     background-color: #FFF; /* Cor branca */
     padding: 10px;
     text-align: center;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Sombra */
-    border-radius: 10px; /* Borda arredondada */
+    border-radius: 10px;
 }
 
 header nav ul {
@@ -74,42 +79,40 @@ header nav ul li a.active {
     border-radius: 10px; /* Borda arredondada */
 }
 
-/* 
-    /* Estilo para a barra de pesquisa */
-    #search-form {
-        display: flex; /* Exibir como flex */
-        align-items: center; /* Alinhar itens no centro */
-        margin: 20px 0; /* Margem acima e abaixo */
-    }
+/* Estilo para a barra de pesquisa */
+#search-form {
+    display: flex; /* Exibir como flex */
+    align-items: center; /* Alinhar itens no centro */
+    /*margin: 20px 0; /* Margem acima e abaixo */
+}
 
-    /* Estilo para o campo de entrada */
-    #search-input {
-        flex: 1; /* Ocupar todo o espaço disponível */
-        padding: 10px; /* Espaçamento interno */
-        border: none; /* Sem borda */
-        border-radius: 20px; /* Borda arredondada */
-        font-size: 1.2em; /* Tamanho de fonte */
-    }
+/* Estilo para o campo de entrada */
+#search-input {
+   /* padding: 10px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 20px; /* Borda arredondada */
+    font-size: 1.2em; /* Tamanho de fonte */
+}
 
-    /* Estilo para o botão */
-    #search-form button {
-        padding: 10px 20px; /* Espaçamento interno */
-        border: none; /* Sem borda */
-        border-radius: 20px; /* Borda arredondada */
-        background-color: #8B0000; /* Cor vermelha */
-        color: #FFF; /* Cor branca */
-        text-transform: uppercase; /* Tudo em maiúsculas */
-        letter-spacing: 2px; /* Espaçamento entre letras */
-        font-size: 1.2em; /* Tamanho de fonte */
-        cursor: pointer; /* cursor de mãozinha */
-        transition: background-color 0.2s ease-in-out; /* transição suave */
-    }
+/* Estilo para o botão */
+#search-form button {
+  /*  padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 20px; /* Borda arredondada */
+    background-color: #8B0000; /* Cor vermelha */
+    color: #FFF; /* Cor branca */
+    text-transform: uppercase; /* Tudo em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    font-size: 1.2em; /* Tamanho de fonte */
+    cursor: pointer; /* cursor de mãozinha */
+    transition: background-color 0.2s ease-in-out; /* transição suave */
+}
 
-    /* Estilo para o botão quando pressionado */
-    #search-form button:active {
-        background-color: #FFF; /* Cor branca */
-        color: #8B0000; /* Cor vermelha */
-    }
+/* Estilo para o botão quando pressionado */
+#search-form button:active {
+    background-color: #FFF; /* Cor branca */
+    color: #8B0000; /* Cor vermelha */
+}
 
 
 
