@@ -7,6 +7,7 @@
 :root {
     --branco: white;
 
+    --amarelo0: #ffefc4;
     --amarelo1: #FFE191;
     --amarelo2: #F0C44D;
     --amarelo3: #FE9700;
@@ -30,7 +31,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #F5F5DC;
+    background-color: var(--amarelo0);
 }
 
 /* Estilos para o cabeçalho */
@@ -57,7 +58,7 @@ div#div-header h1 {
     
     margin-right: 0; */
     margin-top: -15px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
     font-size: 4em;
     color: var(--amarelo3);
     font-family: var(--fonte-cursiva);
@@ -180,6 +181,129 @@ h1, h2, h3 {
     color: #8B0000;
 }
 
+
+/* Define a largura do elemento main */
+/* Adiciona um background colorido ao elemento main */
+main {
+    width: 65%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.322);
+}
+
+/* Estiliza os títulos dentro de main */
+main h1, main h2, main h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+main h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px #333;
+}
+main h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+main h3 {
+    font-size: 1.5em;
+}
+
+/* Estiliza os parágrafos dentro de main */
+main p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Estiliza as imagens dentro de main */
+main img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #ccc;
+    margin-bottom: 20px;
+}
+
+/* Estiliza os links dentro de main */
+main a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+main a:hover {
+    color: #F44336;
+}
+
+
+
+
+
+/* Adiciona um estilo bonito ao conteúdo principal
+main h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #333;
+  }
+  
+  main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+main section h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #333;
+    }
+    
+    main section article {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 2px 2px 10px #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    }
+    
+    main section article img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    }
+    
+    main section article h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    }
+    
+    main section article p {
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: justify;
+    }
+    
+    main section article a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #333;
+    }
+    
+    main section article a:hover {
+    color: #F44336;
+    }
+
+
+    
 .container {
     width: 80%;
     margin: 0 auto;
@@ -214,4 +338,4 @@ h1, h2, h3 {
 
 .recipe-card .ingredients li {
     margin-bottom: 10px;
-}
+}*/
