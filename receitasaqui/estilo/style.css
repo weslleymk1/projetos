@@ -15,7 +15,8 @@
     --azul1: #5088F0;
     --azul2: #1546A3;
 
-    --vermelho1: #8B0000;
+    --vermelho2: #B22222;
+    --vermelho3: #8B0000;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-cursiva: 'Lobster', cursive;
@@ -64,7 +65,9 @@ div#div-header h1 {
     cursor: pointer;
     align-self: center;
 }
-
+div#div-header a {
+    text-decoration: none;
+}
 
 
 .search-container{
@@ -102,8 +105,9 @@ div#autenticar {
 
 
 .sign {
+    display: inline-block;
     padding: 12px 24px;
-    background-color: #8B0000;
+    background-color: var(--vermelho3);
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -112,8 +116,8 @@ div#autenticar {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.555);
 }
 .sign:hover{
-    background-color: #B22222;
-    box-shadow: 2px 2px 10px #B22222;
+    background-color: var(--vermelho2);
+    box-shadow: 2px 2px 10px var(--vermelho2);
     cursor: pointer;
     transform: scale(1.1);
 }
@@ -143,11 +147,11 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #8B0000; /* Cor vermelha */
+    color: var(--vermelho3); /* Cor vermelha */
     text-decoration: none; /* Remover sublinhado */
     font-size: 1.2em; /* Tamanho de fonte */
     /*text-transform: uppercase; /* Tudo em maiúsculas */
-    letter-spacing: 2px; /* Espaçamento entre letras */
+    /*letter-spacing: 2px; /* Espaçamento entre letras */
 }
 
 /* Estilo para o link ativo */
@@ -156,9 +160,16 @@ header nav ul li a.active {
     background-color: #8B0000; /* Cor vermelha */
     padding: 10px;
     border-radius: 10px; /* Borda arredondada */
+    
 }
 
-
+header nav ul li a:hover {
+    color: var(--vermelho2);
+    /* font-size: 20px; */
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px var(--vermelho2);
+    transition: .3s;
+}
 
 
 
