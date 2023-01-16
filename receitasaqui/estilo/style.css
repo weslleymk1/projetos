@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 @import url('https://css.gg/log-in.css');
 
 :root {
@@ -34,12 +36,13 @@ body {
 header {
     background-color: var(--amarelo2);
     padding: 20px;
-    text-align: center;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.452);
 }
 
 
 img#logo-header{
-    width: 80px;
+    height: 60px;
+    width: 60px;
     padding-bottom: 10px;
     cursor: pointer;
 }
@@ -48,20 +51,80 @@ div#div-header {
 
 }
 div#div-header h1 {
-    margin: auto;
+    /* margin: auto; */
+    /* margin-bottom: 0px;
+    
+    margin-right: 0; */
+    margin-top: -15px;
     margin-left: 8px;
-    margin-right: 0;
     font-size: 4em;
     color: var(--amarelo3);
     font-family: var(--fonte-cursiva);
     text-shadow: -1px 1px 5px var(--branco);
     cursor: pointer;
+    align-self: center;
 }
+
+
+
+.search-container{
+    margin: 0px 40px 0px auto;
+    height: 50px;
+    align-self: center;
+}
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  /* border: 1px solid #D0CFCE; */
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  }
+.search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+}
+
+
+div#autenticar {
+    align-self: center;
+    margin-top: -4px;
+    padding-left: 50px;
+}
+
+
+
+.sign {
+    padding: 12px 24px;
+    background-color: #8B0000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.555);
+}
+.sign:hover{
+    background-color: #B22222;
+    box-shadow: 2px 2px 10px #B22222;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
 
 /* Estilos para o menu de navegação */
 header nav {
     background-color: #FFF; /* Cor branca */
     padding: 10px;
+    margin-top: 5px;
     text-align: center;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Sombra */
     border-radius: 10px;
@@ -97,32 +160,6 @@ header nav ul li a.active {
 
 
 
-.search-container{
-    margin: 10px 40px -50px auto;
-}
-
-input#search-bar{
-  margin: 0 auto;
-  width: 100%;
-  height: 45px;
-  padding: 0 20px;
-  font-size: 1rem;
-  /* border: 1px solid #D0CFCE; */
-  border: none;
-  outline: none;
-  border-radius: 20px;
-  }
-
-
-  
-.search-icon{
-    position: relative;
-    float: right;
-    width: 75px;
-    height: 75px;
-    top: -62px;
-    right: -45px;
-}
 
 
 
