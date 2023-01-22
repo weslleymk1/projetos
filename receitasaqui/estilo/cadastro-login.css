@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+@import url('https://css.gg/log-in.css');
+
+:root {
+    --branco: white;
+
+    --amarelo0: #ffefc4;
+    --amarelo1: #FFE191;
+    --amarelo2: #F0C44D;
+    --amarelo3: #FE9700;
+    --amarelo4: #A37700;
+
+    --azul1: #5088F0;
+    --azul2: #1546A3;
+
+    --vermelho2: #B22222;
+    --vermelho3: #8B0000;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-cursiva: 'Lobster', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-padrao);
+}
+body{
+    background-color: var(--amarelo0);
+}
+
+/* Centralizando o Conteúdo*/
+div.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+}
+div.inputBox {
+    position: relative;
+    padding-bottom: 25px;
+
+}
+input.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+label.labelInput{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .4s;
+}
+fieldset {
+    border: 3px solid dodgerblue;
+    padding: 5px;
+    border-radius: 20px;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+div#box-nascimento{
+
+}
+input#nascimento{
+    border: none;
+    padding: 8px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+}
+input#submit{
+    background-color: dodgerblue;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 25%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+input#submit:hover{
+    background-color: red;
+}

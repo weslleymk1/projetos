@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+@import url('https://css.gg/log-in.css');
+
+:root {
+    --branco: white;
+
+    --amarelo0: #ffefc4;
+    --amarelo1: #FFE191;
+    --amarelo2: #F0C44D;
+    --amarelo3: #FE9700;
+    --amarelo4: #A37700;
+
+    --azul1: #5088F0;
+    --azul2: #1546A3;
+
+    --vermelho2: #B22222;
+    --vermelho3: #8B0000;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-cursiva: 'Lobster', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--amarelo0);
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: var(--amarelo2);
+    padding: 20px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.452);
+}
+
+
+img#logo-header{
+    height: 60px;
+    width: 60px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+div#div-header {
+    display: flex;
+
+}
+div#div-header h1 {
+    /* margin: auto; */
+    /* margin-bottom: 0px;
+    
+    margin-right: 0; */
+    margin-top: -15px;
+    /* margin-left: 8px; */
+    font-size: 4em;
+    color: var(--amarelo3);
+    font-family: var(--fonte-cursiva);
+    text-shadow: -1px 1px 5px var(--branco);
+    cursor: pointer;
+    align-self: center;
+}
+div#div-header a {
+    text-decoration: none;
+}
+
+
+.search-container{
+    margin: 0px 40px 0px auto;
+    height: 50px;
+    align-self: center;
+}
+input#search-bar{
+  margin: 0 auto;
+  width: 100%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  /* border: 1px solid #D0CFCE; */
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  }
+.search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+}
+
+
+div#autenticar {
+    align-self: center;
+    margin-top: -4px;
+    padding-left: 50px;
+}
+
+
+
+.sign {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--vermelho3);
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.555);
+}
+.sign:hover{
+    background-color: var(--vermelho2);
+    box-shadow: 2px 2px 10px var(--vermelho2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+/* Estilos para o menu de navegação */
+header nav {
+    background-color: #FFF; /* Cor branca */
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+    border-radius: 10px;
+}
+
+header nav ul {
+    list-style: none; /* Remover marcadores de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Exibir como flex */
+    justify-content: center; /* Alinhar no centro */
+}
+
+header nav ul li {
+    margin: 0 10px; /* Margem entre itens */
+}
+
+header nav ul li a {
+    color: var(--vermelho3); /* Cor vermelha */
+    text-decoration: none; /* Remover sublinhado */
+    font-size: 1.2em; /* Tamanho de fonte */
+    /*text-transform: uppercase; /* Tudo em maiúsculas */
+    /*letter-spacing: 2px; /* Espaçamento entre letras */
+}
+
+/* Estilo para o link ativo */
+header nav ul li a.active {
+    color: #FFF; /* Cor branca */
+    background-color: #8B0000; /* Cor vermelha */
+    padding: 10px;
+    border-radius: 10px; /* Borda arredondada */
+    
+}
+
+header nav ul li a:hover {
+    color: var(--vermelho2);
+    /* font-size: 20px; */
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px var(--vermelho2);
+    transition: .3s;
+}
